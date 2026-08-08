@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+1,2023-11-05,Fernando Gomez,Laptop Gaming,Electronica,2,1200,Tarjeta,Guadalajara
+2,2023-11-05,Valeria Rios,Smart TV 65,Electronica,1,1550,Transferencia,Monterrey
+3,2023-11-06,Roberto Sanz,Consola Videojuegos,Videojuegos,3,600,Tarjeta,CDMX
+4,2023-11-06,Diana Morales,Refrigerador Smart,Linea_Blanca,1,2200,Tarjeta,Puebla
+5,2023-11-07,Gabriel Torres,Mouse Inalambrico,Accesorios,2,25,Efectivo,Guadalajara
+6,2023-11-07,Patricia Vega,Funda para Tablet,Accesorios,1,35,Efectivo,Monterrey
+7,2023-11-08,Hector Luna,Cable HDMI 4K,Accesorios,3,15,Efectivo,CDMX
+8,2023-11-08,Camila Navarro,Lampara LED Smart,Iluminacion_Nueva,2,40,Tarjeta,Queretaro
+9,2023-11-09,Santiago Castro,Escritorio Ergonomico,Muebles_Oficina,1,980,Tarjeta,Merida
+10,2023-11-09,Elena Mendez,Monitor 27 Pulgadas,Electronica,2,510,Tarjeta,Monterrey
