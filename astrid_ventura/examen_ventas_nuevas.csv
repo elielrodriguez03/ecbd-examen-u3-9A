@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+2001,2026-08-01,Ana Bermudez,Laptop Gamer,Electronica,1,1850,Tarjeta,Cuernavaca
+2002,2026-08-01,Luis Cabrera,Refrigerador,Electrodomesticos,1,1600,Transferencia,Jiutepec
+2003,2026-08-02,Sofia Nava,PC Escritorio,Electronica,1,1200,Tarjeta,Temixco
+2004,2026-08-02,Pedro Solis,Sofa,Muebles,1,2100,Transferencia,Cuautla
+2005,2026-08-03,Laura Cano,Mouse Pad,Accesorios,2,120,Efectivo,Cuernavaca
+2006,2026-08-03,Carlos Rios,Playera Deportiva,Ropa,3,180,Efectivo,Jiutepec
+2007,2026-08-04,Maria Torres,Cable HDMI,Accesorios,2,150,Efectivo,Emiliano Zapata
+2008,2026-08-04,Jorge Mata,Cargador,Accesorios,2,380,Tarjeta,Temixco
+2009,2026-08-05,Valeria Ruiz,Bocina Bluetooth,Electronica,1,1000,Tarjeta,Cuernavaca
+2010,2026-08-05,Diego Ponce,Escritorio,Muebles,1,990,Transferencia,Cuautla
