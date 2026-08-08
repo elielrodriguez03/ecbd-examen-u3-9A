@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+2001,07/08/2026,Cliente A,Mouse,Accesorios,2,500,Efectivo,Cuernavaca
+2002,08/08/2026,Cliente B,Laptop,Electronica,1,12000,Tarjeta,Jiutepec
+2003,09/08/2026,Cliente C,Mouse Pad,Accesorios,3,400,Efectivo,Temixco
+2004,10/08/2026,Cliente D,Cargador,Accesorios,1,80,Tarjeta,Cuernavaca
+2005,11/08/2026,Cliente F,Funda Tablet,Accesorios,2,150,Efectivo,Jiutepec
+2006,12/08/2026,Cliente G,Soporte Celular,Accesorios,2,200,Efectivo,Emiliano Zapata
+2007,13/08/2026,Cliente H,Audifonos,Electronica,2,800,Tarjeta,Temixco
+2008,14/08/2026,Cliente I,Webcam,Electronica,1,400,Efectivo,Cuautla
+2009,15/08/2026,Cliente J,Cable HDMI,Cables,2,120,Efectivo,Jiutepec
+2010,16/08/2026,Cliente K,Memoria USB,Accesorios,2,80,Tarjeta,Temixco
