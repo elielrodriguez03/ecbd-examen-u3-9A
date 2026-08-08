@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad,prediccion_venta_alta,interpretacion_prediccion,total_estimado,venta_alta_real_estimada,coincide,distancia_a_1000
+1061,2026-07-01,Ana Lopez,Mouse,Electronica,1,1204,Tarjeta,Jiutepec,1,Venta alta,1204,1,True,204
+1062,2026-07-01,Diana Flores,PC Escritorio,Electronica,3,548,Tarjeta,Emiliano Zapata,1,Venta alta,1644,1,True,644
+1063,2026-07-01,Alberto Reyes,Disco SSD,Electronica,2,1244,Tarjeta,Emiliano Zapata,1,Venta alta,2488,1,True,1488
+1064,2026-07-01,Gabriel Nieto,Silla Gamer,Electronica,2,1254,Tarjeta,Jiutepec,1,Venta alta,2508,1,True,1508
+1065,2026-07-01,Arturo Molina,Laptop Gamer,Electronica,1,1457,Tarjeta,Emiliano Zapata,1,Venta alta,1457,1,True,457
+1066,2026-07-01,Ivan Mejia,Mouse,Accesorios,2,1379,Tarjeta,Temixco,0,Venta no alta,2758,1,False,1758
+1067,2026-07-01,Alejandra Vargas,Monitor,Electronica,3,1785,Tarjeta,Jiutepec,1,Venta alta,5355,1,True,4355
+1068,2026-07-01,Jorge Cano,Tablet,Electronica,2,1892,Tarjeta,Emiliano Zapata,1,Venta alta,3784,1,True,2784
+1069,2026-07-01,Javier Nunez,PC Escritorio,Electronica,1,1050,Tarjeta,Temixco,1,Venta alta,1050,1,True,50
+1070,2026-07-01,Ruben Castaneda,Laptop Gamer,Gamer,2,512,Tarjeta,Tezoyuca,1,Venta alta,1024,1,True,24

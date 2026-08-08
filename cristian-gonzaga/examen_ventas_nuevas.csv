@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+1061,2026-07-01,Ana Lopez,Mouse,Electronica,1,1204,Tarjeta,Jiutepec
+1062,2026-07-01,Diana Flores,PC Escritorio,Electronica,3,548,Tarjeta,Emiliano Zapata
+1063,2026-07-01,Alberto Reyes,Disco SSD,Electronica,2,1244,Tarjeta,Emiliano Zapata
+1064,2026-07-01,Gabriel Nieto,Silla Gamer,Electronica,2,1254,Tarjeta,Jiutepec
+1065,2026-07-01,Arturo Molina,Laptop Gamer,Electronica,1,1457,Tarjeta,Emiliano Zapata
+1066,2026-07-01,Ivan Mejia,Mouse,Accesorios,2,1379,Tarjeta,Temixco
+1067,2026-07-01,Alejandra Vargas,Monitor,Electronica,3,1785,Tarjeta,Jiutepec
+1068,2026-07-01,Jorge Cano,Tablet,Electronica,2,1892,Tarjeta,Emiliano Zapata
+1069,2026-07-01,Javier Nunez,PC Escritorio,Electronica,1,1050,Tarjeta,Temixco
+1070,2026-07-01,Ruben Castaneda,Laptop Gamer,Gamer,2,512,Tarjeta,Tezoyuca

@@ -490,16 +490,14 @@ Preguntas obligatorias:
 Completa esta seccion al final:
 
 ```text
-Nombre: Gonzaga Castañeda Cristian Amauri
-Grupo: A
-Materia: Extracción de conocimiento de Bases de Datos
-Exactitud obtenida: 100%
-Ventas nuevas evaluadas: 10
-Coincidencias: 9
-Errores: 1
-Conclusion breve: Al analizar y entrenar al modelo fui viendo la evolución y como se fueron haciendo la cosas.
-Las columnas, las predicciones, los valores, el como guardar para reutilizar el modelo en varias otras, ademas de
-como pasar los nuevos datos. Fue sencillo cuando lo entendí.
+Nombre:
+Grupo:
+Materia:
+Exactitud obtenida:
+Ventas nuevas evaluadas:
+Coincidencias:
+Errores:
+Conclusion breve:
 ```
 
 ---

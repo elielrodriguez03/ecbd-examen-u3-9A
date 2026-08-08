@@ -1,0 +1,322 @@
+AYUDA DE CODIGO
+Examen Unidad 3 - Modelos supervisados
+
+Este archivo NO resuelve todo el examen.
+Solo contiene fragmentos utiles para los pasos donde normalmente hay errores de sintaxis.
+
+Debes adaptar los nombres de variables a tu notebook.
+
+------------------------------------------------------------
+1. IMPORTAR LIBRERIAS
+------------------------------------------------------------
+
+Puedes iniciar con estas librerias:
+
+import pandas as pd
+import joblib
+
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score, confusion_matrix
+
+------------------------------------------------------------
+2. CARGAR CSV
+------------------------------------------------------------
+
+Ejemplo:
+
+df = pd.read_csv("ventas_ecommerce_limpio.csv")
+
+Para ver primeras filas:
+
+df.head()
+
+Para ver columnas:
+
+df.columns
+
+Para ver filas y columnas:
+
+df.shape
+
+------------------------------------------------------------
+3. REVISAR NULOS
+------------------------------------------------------------
+
+df.isnull().sum()
+
+Si hay nulos, primero revisa en que columnas aparecen.
+No los elimines sin explicarlo.
+
+Si decides eliminar filas con nulos:
+
+df = df.dropna()
+
+Debes explicar en Markdown por que lo hiciste.
+
+------------------------------------------------------------
+4. REVISAR TOTAL_VENTA
+------------------------------------------------------------
+
+Puedes crear una columna temporal:
+
+df["total_calculado"] = df["cantidad"] * df["precio_unitario"]
+
+Para ver registros donde no coincide:
+
+df[df["total_venta"] != df["total_calculado"]]
+
+Si no aparece ningun registro, significa que no encontraste inconsistencias.
+
+------------------------------------------------------------
+5. CREAR VENTA_ALTA
+------------------------------------------------------------
+
+Puedes usar lambda:
+
+df["venta_alta"] = df["total_venta"].apply(lambda x: 1 if x >= 1000 else 0)
+
+O puedes usar una funcion:
+
+def clasificar_venta(total):
+    if total >= 1000:
+        return 1
+    else:
+        return 0
+
+df["venta_alta"] = df["total_venta"].apply(clasificar_venta)
+
+Para contar:
+
+df["venta_alta"].value_counts()
+
+------------------------------------------------------------
+6. SEPARAR X E Y
+------------------------------------------------------------
+
+Recuerda:
+
+X = variables de entrada
+y = respuesta que quieres predecir
+
+Ejemplo:
+
+X = df[["cantidad", "precio_unitario", "categoria", "metodo_pago", "ciudad"]]
+y = df["venta_alta"]
+
+No uses `total_venta` como entrada si `venta_alta` fue creada con `total_venta`.
+
+------------------------------------------------------------
+7. CONVERTIR TEXTO A NUMEROS
+------------------------------------------------------------
+
+Los modelos no trabajan directamente con texto.
+
+Usa:
+
+X = pd.get_dummies(X)
+
+Guarda las columnas:
+
+columnas_modelo = X.columns.tolist()
+
+------------------------------------------------------------
+8. TRAIN_TEST_SPLIT
+------------------------------------------------------------
+
+Ejemplo:
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.2,
+    random_state=42
+)
+
+test_size=0.2 significa 20% para prueba.
+
+------------------------------------------------------------
+9. ENTRENAR MODELO
+------------------------------------------------------------
+
+modelo = DecisionTreeClassifier(random_state=42)
+modelo.fit(X_train, y_train)
+
+fit() entrena el modelo.
+
+------------------------------------------------------------
+10. PREDECIR Y EVALUAR
+------------------------------------------------------------
+
+predicciones = modelo.predict(X_test)
+
+Exactitud:
+
+exactitud = accuracy_score(y_test, predicciones)
+print("Exactitud:", exactitud)
+
+Matriz de confusion:
+
+matriz = confusion_matrix(y_test, predicciones)
+print(matriz)
+
+------------------------------------------------------------
+11. TABLA DE RESULTADOS
+------------------------------------------------------------
+
+resultados_prueba = pd.DataFrame({
+    "valor_real": y_test,
+    "prediccion": predicciones
+})
+
+resultados_prueba["coincide"] = resultados_prueba["valor_real"] == resultados_prueba["prediccion"]
+
+Para contar:
+
+resultados_prueba["coincide"].value_counts()
+
+Para separar:
+
+aciertos = resultados_prueba[resultados_prueba["coincide"] == True]
+errores = resultados_prueba[resultados_prueba["coincide"] == False]
+
+len(aciertos)
+len(errores)
+
+------------------------------------------------------------
+12. GUARDAR MODELO Y COLUMNAS
+------------------------------------------------------------
+
+joblib.dump(modelo, "modelo_examen_venta_alta.pkl")
+joblib.dump(columnas_modelo, "columnas_examen_modelo.pkl")
+
+------------------------------------------------------------
+13. CREAR VENTAS NUEVAS
+------------------------------------------------------------
+
+Puedes crear el archivo desde pandas o hacerlo manualmente en CSV.
+
+Si lo haces con pandas, recuerda incluir estas columnas:
+
+id_venta
+fecha
+cliente
+producto
+categoria
+cantidad
+precio_unitario
+metodo_pago
+ciudad
+
+Ejemplo de estructura:
+
+nuevas = pd.DataFrame({
+    "id_venta": [2001, 2002],
+    "fecha": ["2026-08-07", "2026-08-07"],
+    "cliente": ["Cliente A", "Cliente B"],
+    "producto": ["Mouse", "Laptop"],
+    "categoria": ["Accesorios", "Electronica"],
+    "cantidad": [1, 1],
+    "precio_unitario": [500, 12000],
+    "metodo_pago": ["Efectivo", "Tarjeta"],
+    "ciudad": ["Cuernavaca", "Jiutepec"]
+})
+
+nuevas.to_csv("examen_ventas_nuevas.csv", index=False)
+
+El examen pide minimo 10 ventas nuevas.
+No te quedes con solo 2.
+
+------------------------------------------------------------
+14. CARGAR MODELO Y COLUMNAS
+------------------------------------------------------------
+
+modelo_cargado = joblib.load("modelo_examen_venta_alta.pkl")
+columnas_modelo = joblib.load("columnas_examen_modelo.pkl")
+
+------------------------------------------------------------
+15. PREPARAR VENTAS NUEVAS
+------------------------------------------------------------
+
+nuevas = pd.read_csv("examen_ventas_nuevas.csv")
+
+X_nuevas = nuevas[["cantidad", "precio_unitario", "categoria", "metodo_pago", "ciudad"]]
+X_nuevas = pd.get_dummies(X_nuevas)
+
+Paso importante:
+
+X_nuevas = X_nuevas.reindex(columns=columnas_modelo, fill_value=0)
+
+reindex() alinea las columnas nuevas con las columnas del entrenamiento.
+
+------------------------------------------------------------
+16. GENERAR PREDICCIONES NUEVAS
+------------------------------------------------------------
+
+nuevas["prediccion_venta_alta"] = modelo_cargado.predict(X_nuevas)
+
+nuevas["interpretacion_prediccion"] = nuevas["prediccion_venta_alta"].map({
+    0: "Venta no alta",
+    1: "Venta alta"
+})
+
+------------------------------------------------------------
+17. AUDITORIA DE PREDICCIONES
+------------------------------------------------------------
+
+Calcula total estimado:
+
+nuevas["total_estimado"] = nuevas["cantidad"] * nuevas["precio_unitario"]
+
+Crea regla manual:
+
+nuevas["venta_alta_real_estimada"] = nuevas["total_estimado"].apply(lambda x: 1 if x >= 1000 else 0)
+
+Compara:
+
+nuevas["coincide"] = nuevas["prediccion_venta_alta"] == nuevas["venta_alta_real_estimada"]
+
+Cuenta:
+
+nuevas["coincide"].value_counts()
+
+Filtra errores:
+
+errores = nuevas[nuevas["coincide"] == False]
+
+------------------------------------------------------------
+18. ERRORES CERCA DE 1000
+------------------------------------------------------------
+
+nuevas["distancia_a_1000"] = (nuevas["total_estimado"] - 1000).abs()
+
+cerca_limite = nuevas[nuevas["distancia_a_1000"] <= 200]
+
+Esto muestra ventas entre 800 y 1200 aproximadamente.
+
+------------------------------------------------------------
+19. GUARDAR PREDICCIONES
+------------------------------------------------------------
+
+nuevas.to_csv("examen_predicciones.csv", index=False)
+
+------------------------------------------------------------
+20. RECORDATORIO FINAL
+------------------------------------------------------------
+
+Antes de hacer commit, revisa que tu carpeta tenga:
+
+README.md
+ventas_ecommerce_limpio.csv
+Examen_U3_ModeloSupervisado_NombreApellido.ipynb
+modelo_examen_venta_alta.pkl
+columnas_examen_modelo.pkl
+examen_ventas_nuevas.csv
+examen_predicciones.csv
+
+No hagas push a main.
+
+Usa tu rama:
+
+examen-u3-nombre-apellido
+
