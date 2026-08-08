@@ -1,0 +1,61 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad,total_venta
+1001,2026-07-01,Ana Lopez,Mouse,Accesorios,1,250.0,Efectivo,Cuernavaca,250.0
+1002,2026-07-01,Luis Perez,Teclado,Accesorios,1,650.0,Tarjeta,Jiutepec,650.0
+1003,2026-07-02,Sofia Ruiz,Audifonos,Accesorios,1,900.0,Tarjeta,Temixco,900.0
+1004,2026-07-02,Pedro Mata,Webcam,Accesorios,1,800.0,Efectivo,Cuernavaca,800.0
+1005,2026-07-03,Laura Diaz,Cable HDMI,Accesorios,2,180.0,Efectivo,Jiutepec,360.0
+1006,2026-07-03,Carlos Luna,Memoria USB,Accesorios,3,150.0,Tarjeta,Emiliano Zapata,450.0
+1007,2026-07-04,Maria Solis,Mouse Pad,Accesorios,2,120.0,Efectivo,Temixco,240.0
+1008,2026-07-04,Jorge Cano,Cargador,Accesorios,1,550.0,Tarjeta,Cuernavaca,550.0
+1009,2026-07-05,Valeria Cruz,Funda Tablet,Accesorios,2,220.0,Efectivo,Jiutepec,440.0
+1010,2026-07-05,Diego Torres,Soporte Celular,Accesorios,2,160.0,Efectivo,Temixco,320.0
+1011,2026-07-06,Andrea Rios,Kit Limpieza,Accesorios,3,130.0,Efectivo,Cuernavaca,390.0
+1012,2026-07-06,Fernando Vega,Adaptador USB,Accesorios,4,140.0,Tarjeta,Jiutepec,560.0
+1013,2026-07-07,Mariana Ortiz,Lampara LED,Accesorios,2,300.0,Tarjeta,Emiliano Zapata,600.0
+1014,2026-07-07,Ricardo Salas,Bocina Bluetooth,Accesorios,1,990.0,Tarjeta,Cuernavaca,990.0
+1015,2026-07-08,Paola Marin,Teclado,Accesorios,2,450.0,Efectivo,Temixco,900.0
+1016,2026-07-08,Hector Nava,Webcam,Accesorios,1,780.0,Tarjeta,Jiutepec,780.0
+1017,2026-07-09,Claudia Mendez,Base Laptop,Accesorios,1,700.0,Tarjeta,Cuernavaca,700.0
+1018,2026-07-09,Oscar Pineda,Mouse,Accesorios,3,250.0,Efectivo,Jiutepec,750.0
+1019,2026-07-10,Brenda Ruiz,Audifonos,Accesorios,1,950.0,Tarjeta,Temixco,950.0
+1020,2026-07-10,Raul Castro,Cable HDMI,Accesorios,4,180.0,Efectivo,Emiliano Zapata,720.0
+1021,2026-07-11,Patricia Leon,Disco SSD,Electronica,1,1300.0,Tarjeta,Cuernavaca,1300.0
+1022,2026-07-11,Manuel Soto,Router,Electronica,1,1100.0,Efectivo,Jiutepec,1100.0
+1023,2026-07-12,Diana Flores,Impresora,Electronica,1,2800.0,Transferencia,Temixco,2800.0
+1024,2026-07-12,Roberto Gil,Escritorio,Muebles,1,1800.0,Tarjeta,Cuernavaca,1800.0
+1025,2026-07-13,Elena Mora,Silla Oficina,Muebles,1,2200.0,Tarjeta,Jiutepec,2200.0
+1026,2026-07-13,Victor Ramos,Tablet,Electronica,1,3200.0,Transferencia,Emiliano Zapata,3200.0
+1027,2026-07-14,Lucia Campos,Monitor,Electronica,1,3600.0,Tarjeta,Temixco,3600.0
+1028,2026-07-14,Alberto Reyes,Silla Gamer,Muebles,1,4300.0,Tarjeta,Cuernavaca,4300.0
+1029,2026-07-15,Karina Vera,Impresora,Electronica,1,2500.0,Efectivo,Jiutepec,2500.0
+1030,2026-07-15,Javier Nunez,Disco Duro,Electronica,2,900.0,Tarjeta,Temixco,1800.0
+1031,2026-07-16,Monica Lara,Router,Electronica,2,1150.0,Transferencia,Cuernavaca,2300.0
+1032,2026-07-16,Gabriel Nieto,Escritorio,Muebles,2,1800.0,Tarjeta,Jiutepec,3600.0
+1033,2026-07-17,Sandra Pena,Tablet,Electronica,1,3900.0,Tarjeta,Temixco,3900.0
+1034,2026-07-17,Arturo Molina,Monitor,Electronica,1,4800.0,Transferencia,Cuernavaca,4800.0
+1035,2026-07-18,Renata Soto,Silla Gamer,Muebles,1,4100.0,Efectivo,Jiutepec,4100.0
+1036,2026-07-18,Ivan Mejia,Disco SSD,Electronica,2,1300.0,Tarjeta,Emiliano Zapata,2600.0
+1037,2026-07-19,Natalia Rojas,Router,Electronica,1,1450.0,Efectivo,Temixco,1450.0
+1038,2026-07-19,Erick Silva,Silla Oficina,Muebles,2,2200.0,Tarjeta,Cuernavaca,4400.0
+1039,2026-07-20,Daniela Cardenas,Impresora,Electronica,2,2500.0,Transferencia,Jiutepec,5000.0
+1040,2026-07-20,Miguel Fuentes,Monitor,Electronica,2,2400.0,Tarjeta,Temixco,4800.0
+1041,2026-07-21,Alejandra Vargas,Smartphone,Electronica,1,8500.0,Tarjeta,Cuernavaca,8500.0
+1042,2026-07-21,Sergio Ibarra,Consola,Electronica,1,9500.0,Tarjeta,Jiutepec,9500.0
+1043,2026-07-22,Camila Herrera,Television,Electronica,1,11500.0,Transferencia,Temixco,11500.0
+1044,2026-07-22,Jose Aguilar,Laptop,Electronica,1,12500.0,Tarjeta,Cuernavaca,12500.0
+1045,2026-07-23,Laura Montes,Laptop Gamer,Electronica,1,13500.0,Tarjeta,Jiutepec,13500.0
+1046,2026-07-23,Pablo Cortes,PC Escritorio,Electronica,1,11800.0,Transferencia,Emiliano Zapata,11800.0
+1047,2026-07-24,Isabel Franco,Laptop,Electronica,1,13200.0,Tarjeta,Temixco,13200.0
+1048,2026-07-24,Andres Villa,Smartphone,Electronica,1,7800.0,Tarjeta,Cuernavaca,7800.0
+1049,2026-07-25,Regina Santos,Consola,Electronica,1,10500.0,Transferencia,Jiutepec,10500.0
+1050,2026-07-25,Daniel Rios,Television,Electronica,1,11800.0,Tarjeta,Temixco,11800.0
+1051,2026-07-26,Fabiola Castro,Laptop,Electronica,1,12500.0,Tarjeta,Cuernavaca,12500.0
+1052,2026-07-26,Adrian Vega,PC Escritorio,Electronica,1,12000.0,Transferencia,Jiutepec,12000.0
+1053,2026-07-27,Carolina Soto,Laptop Gamer,Electronica,1,13000.0,Tarjeta,Emiliano Zapata,13000.0
+1054,2026-07-27,Emilio Torres,Smartphone,Electronica,2,5500.0,Tarjeta,Cuernavaca,11000.0
+1055,2026-07-28,Jimena Luna,Consola,Electronica,2,6200.0,Transferencia,Temixco,12400.0
+1056,2026-07-28,Martin Salas,Television,Electronica,1,15000.0,Tarjeta,Jiutepec,15000.0
+1057,2026-07-29,Noemi Flores,Laptop,Electronica,2,7000.0,Tarjeta,Cuernavaca,14000.0
+1058,2026-07-29,Ruben Castaneda,PC Escritorio,Electronica,1,16500.0,Transferencia,Temixco,16500.0
+1059,2026-07-30,Teresa Morales,Laptop Gamer,Electronica,1,22000.0,Tarjeta,Jiutepec,22000.0
+1060,2026-07-30,Uziel Herrera,Smartphone,Electronica,1,9200.0,Efectivo,Emiliano Zapata,9200.0

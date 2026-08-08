@@ -1,0 +1,13 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+201,2026-03-02,Angel Ocampo,Laptop Pro,Tecnologia,2,1450.0,Tarjeta,Veracruz
+202,2026-03-02,Abril Aidee,Refrigerador,Hogar,3,890.0,Transferencia,Puebla
+203,2026-03-03,Alexa Heredia,Monitor 27,Tecnologia,8,320.0,Tarjeta,Xalapa
+204,2026-03-03,Manu Sanchez,Bicicleta,Deportes,4,700.0,Efectivo,Veracruz
+205,2026-03-04,Ulises Silva,Cuaderno,Papeleria,3,45.0,Efectivo,Puebla
+206,2026-03-04,Elias Manuel,Audifonos basic,Tecnologia,2,99.0,Tarjeta,Xalapa
+207,2026-03-05,Pablo Diaz,Lampara,Hogar,1,180.0,Transferencia,Veracruz
+208,2026-03-05,Oso Panda,Balon,Deportes,5,60.0,Efectivo,Puebla
+209,2026-03-06,Renata Solis,Silla oficina,Hogar,1,995.0,Tarjeta,Xalapa
+210,2026-03-06,Tomas Ramirez,Tablet,Tecnologia,1,1005.0,Transferencia,Veracruz
+211,2026-03-07,Umberto Bravo,Kit veterinario,Mascotas,2,505.0,Tarjeta,Puebla
+212,2026-03-07,Juan Diaz,Cafetera,Hogar,1,980.0,Efectivo,Tijuana
