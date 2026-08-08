@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+5001,2026-08-01,Orlando Ruiz,Laptop,Electronica,1,15000.0,Tarjeta,Cuernavaca
+5002,2026-08-02,Sebas Ruiz,Monitor,Electronica,1,6000.0,Transferencia,Jiutepec
+5003,2026-08-03,Jose Ruiz,Television,Electronica,1,9500.0,Tarjeta,Temixco
+5004,2026-08-04,Astrid Ruiz,Refrigerador,Electrodomesticos,1,8000.0,Efectivo,Emiliano Zapata
+5005,2026-08-05,Cesar Ruiz,Mouse,Accesorios,1,200.0,Efectivo,Cuernavaca
+5006,2026-08-06,Andre Ruiz,Cable USB,Accesorios,2,100.0,Tarjeta,Jiutepec
+5007,2026-08-07,Erick Ruiz,Audifonos,Accesorios,1,350.0,Efectivo,Temixco
+5008,2026-08-08,Nicole Ruiz,Mouse Pad,Accesorios,1,150.0,Tarjeta,Emiliano Zapata
+5009,2026-08-09,Evelyn Ruiz,Bocina Bluetooth,Accesorios,1,950.0,Transferencia,Cuernavaca
+5010,2026-08-10,Julio Ruiz,Teclado,Accesorios,1,1050.0,Efectivo,Cuautla
