@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+2001,2026-08-07,Lizeth Torres,Mouse,Accesorios,1,500,Efectivo,Cuernavaca
+2002,2026-08-07,Maria Torres,Laptop,Electronica,1,12000,Tarjeta,Jiutepec
+2003,2026-06-07,Martinillo,Sala,Muebles,1,7000,Efectivo,Cuernavaca
+2004,2026-06-09,Alondra Medina,Mouse,Accesorios,1,200,Tarjeta,Jiutepec
+2005,2026-08-09,Angela Castro,PC Gamer,Electronica,1,15000,Efectivo,Temixco
+2006,2026-06-10,Ana Karen,Playera,Ropa,2,450,Tarjeta,Tepoztlan
+2007,2026-08-08,Rosa Rodriguez,Tenis,Ropa,1,1100,Efectivo,Cuernavaca
+2008,2026-07-09,Luis Peñaloza,Blusa,Ropa,3,350,Tarjeta,Jiutepec
+2009,2026-07-10,Esmeralda Colocia,Comedor,Muebles,1,16700,Efectivo,Emiliano Zapata
+2010,2026-08-10,Hector Morales,Sillon,Muebles,1,8000,Tarjeta,Temixco
