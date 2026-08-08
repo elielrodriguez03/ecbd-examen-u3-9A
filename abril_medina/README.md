@@ -184,21 +184,57 @@ Responde con tus palabras en esta seccion o en una celda Markdown de tu notebook
 Escribe aqui tus respuestas:
 
 ```text
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
+
+## Parte 1. Conceptos
+
+Responde con tus palabras en esta seccion o en una celda Markdown de tu notebook.
+
+1. Que es aprendizaje supervisado?
+es cuando al modelo le cargas respuestas correctas para que valla aprendiendo el patron
+
+2. Que es una variable objetivo?
+es aquel dato el cual deseas predecir por ejemplo una venta alta o no alta
+
+3. Que significa `venta_alta`?
+es una variable objetivo la cual podemos desear predecir
+
+4. Que diferencia hay entre `X` e `y`?
+x  variables de entrada
+y son las variables objetivo
+
+5. Que es clasificacion?
+es cuando separas los datos en categorias para poder predecir, podria ser (0 y 1)
+
+6. Por que este problema es de clasificacion?
+porque se intenta predecir si una venta es alta o no alta 
+
+7. Que hace `DecisionTreeClassifier`?
+es un modelo tipo arbol, va preguntando si/no hasta decidir.
+
+8. Para que sirve separar entrenamiento y prueba?
+para primero ir preparando al modelo para que aprenda de patrones y despues poder predecir 
+
+9. Que significa exactitud?
+cuando el modelo acierta a algo que se predijo 
+
+10. Para que sirve una matriz de confusion?
+detalle de en que se equivoco el
+modelo
+
+11. Que significa `fit()`?
+se usa para entrenar el modelo
+
+12. Que significa `predict()`?
+genera predicciones 
+
+13. Por que se usa `pd.get_dummies()`?
+convierte texto en columnas numericas.
+    
+14. Por que se usa `reindex()` al predecir ventas nuevas?
+porque acomoda columnas nuevas igual que las del entrenamiento.
+
+15. Por que una prediccion no es una verdad absoluta?
+el modelo puede fallar, sobre todo con pocos datos o casos nuevos
 ```
 
 ---
@@ -216,7 +252,8 @@ Realiza lo siguiente:
 5. Verifica que exista la columna `total_venta`.
 6. Verifica que `total_venta` coincida con `cantidad * precio_unitario`.
 7. Escribe una observacion breve sobre el estado del dataset.
-
+# 7. Escribe una observacion breve sobre el estado del dataset.
+# existe una columna que no coincide ya que en precio_unitario esta en 180 y en total_venta esta en 360
 ---
 
 ## Parte 3. Variable Objetivo
@@ -244,7 +281,8 @@ Pregunta obligatoria:
 ```text
 Por que venta_alta es la variable objetivo?
 ```
-
+# Por que no se debe usar total_venta como variable de entrada si venta_alta se creo a partir de total_venta?
+# porque la variable que se intenta predecir es venta_alta en este caso es la variable objetivo
 ---
 
 ## Parte 4. Variables De Entrada
@@ -313,6 +351,17 @@ Preguntas obligatorias:
 5. Una buena exactitud significa que el modelo ya es perfecto? Explica.
 
 ---
+# 1. Cual fue la exactitud?
+# 1.0 de exactitud
+# 2. Cuantos aciertos tuvo el modelo?
+# 12 aciertos en total 
+# 3. Cuantos errores tuvo el modelo?
+# 0 errores 
+# 4. Que indica la matriz de confusion?
+# muestra el resultado de las predicciones clasificó correctamente 4 
+# de la clase negativa 0 y 8 de la clase positiva 1
+# 5. Una buena exactitud significa que el modelo ya es perfecto? Explica.
+# No Una exactitud del 100% en un conjunto de prueba pequeño
 
 ## Parte 6. Guardar Modelo Y Columnas
 
@@ -337,6 +386,12 @@ Preguntas obligatorias:
 3. Que problema puede aparecer si no guardas las columnas?
 
 ---
+1. Para que sirve guardar el modelo?
+para tener prueba del modelo y usarlo para otra prediccion 
+2. Para que sirve guardar las columnas del entrenamiento?
+para que asi el modelo tenga los datos de entrenamiento 
+3. Que problema puede aparecer si no guardas las columnas?
+el problema es que si no se encuentra la columna que se intenta predecir no tendra datos el modelo
 
 ## Parte 7. Ventas Nuevas
 
@@ -425,7 +480,8 @@ Pregunta obligatoria:
 ```text
 Que podria pasar si no usas reindex antes de predecir?
 ```
-
+# Que podria pasar si no usas reindex antes de predecir?
+# que las columnas nuevas no quedaran alineadas con las columnas del entrenamiento
 ---
 
 ## Parte 9. Auditoria Del Modelo
@@ -484,6 +540,36 @@ Preguntas obligatorias:
 9. Que paso con la ciudad nueva?
 
 ---
+
+
+1. Cuantas ventas nuevas evaluaste?
+10 ventas nuevas
+
+2. Cuantas fueron predichas como venta alta?
+6 fueron predichas como venta alta
+
+3. Cuantas fueron predichas como venta no alta?
+4 fueron predichas como venta no alta
+
+4. Cuantas coincidieron con la regla manual?
+solo las que tienen la misma categoria que existia antes 
+
+5. Cuantas no coincidieron?
+4 no coincidieron
+
+6. Que ventas no coincidieron?
+los clientes con los id 2004, 2005, 2007, 2009
+
+7. Los errores estuvieron cerca del limite de 1000?
+Si los errores estan en ese rango
+
+8. Que paso con la categoria nueva?
+Al aplicar pd.get_dummies() y luego .reindex cualquier categoria nueva que no existia en el entrenamiento Electrodomesicos
+fue ignorada sus columnas tomaron valor 0, por lo que el modelo no pudo usar esa informacion
+
+9. Que paso con la ciudad nueva?
+los nombres de ciudades nuevas o combinadas Jiutepec, Nopalera Tetecalita,Cuernavaca etc
+no existian en las columnas del modelo original, asi que al hacer el reindex se rellenaron con 0
 
 ## Resumen Para README
 
