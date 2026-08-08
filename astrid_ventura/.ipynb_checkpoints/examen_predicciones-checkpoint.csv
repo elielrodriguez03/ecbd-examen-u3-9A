@@ -1,11 +1,11 @@
 id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad,prediccion_venta_alta,interpretacion_prediccion,total_estimado,venta_alta_real_estimada,coincide,distancia_a_1000
 2001,2026-08-01,Ana Bermudez,Laptop Gamer,Electronica,1,1850,Tarjeta,Cuernavaca,1,Venta alta,1850,1,True,850
-2002,2026-08-01,Ana Cabrera,Refrigerador,Electrodomesticos,1,1600,Transferencia,Jiutepec,1,Venta alta,1600,1,True,600
-2003,2026-08-02,Mariana Nava,PC Escritorio,Electronica,1,1200,Tarjeta,Temixco,1,Venta alta,1200,1,True,200
+2002,2026-08-01,Luis Cabrera,Refrigerador,Electrodomesticos,1,1600,Transferencia,Jiutepec,1,Venta alta,1600,1,True,600
+2003,2026-08-02,Sofia Nava,PC Escritorio,Electronica,1,1200,Tarjeta,Temixco,1,Venta alta,1200,1,True,200
 2004,2026-08-02,Pedro Solis,Sofa,Muebles,1,2100,Transferencia,Cuautla,1,Venta alta,2100,1,True,1100
-2005,2026-08-03,Laura Torres,Mouse Pad,Accesorios,2,120,Efectivo,Cuernavaca,0,Venta no alta,240,0,True,760
+2005,2026-08-03,Laura Cano,Mouse Pad,Accesorios,2,120,Efectivo,Cuernavaca,0,Venta no alta,240,0,True,760
 2006,2026-08-03,Carlos Rios,Playera Deportiva,Ropa,3,180,Efectivo,Jiutepec,1,Venta alta,540,0,False,460
 2007,2026-08-04,Maria Torres,Cable HDMI,Accesorios,2,150,Efectivo,Emiliano Zapata,0,Venta no alta,300,0,True,700
 2008,2026-08-04,Jorge Mata,Cargador,Accesorios,2,380,Tarjeta,Temixco,0,Venta no alta,760,0,True,240
 2009,2026-08-05,Valeria Ruiz,Bocina Bluetooth,Electronica,1,1000,Tarjeta,Cuernavaca,1,Venta alta,1000,1,True,0
-2010,2026-08-05,Luis Dominguez,Escritorio,Muebles,1,990,Transferencia,Cuautla,1,Venta alta,990,0,False,10
+2010,2026-08-05,Diego Ponce,Escritorio,Muebles,1,990,Transferencia,Cuautla,1,Venta alta,990,0,False,10
