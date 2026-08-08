@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+2001,2026-08-07,Cliente A,Mouse,Accesorios,1,500,Efectivo,Cuernavaca
+2002,2026-08-07,Cliente B,Laptop,Electronica,1,12000,Tarjeta,Paris
+2003,2026-08-07,Cliente C,Audifonos,Accesorios,4,4554,Efectivo,Cuernavaca
+2004,2026-08-07,Cliete D,Lavadora,Electronica,2,7463,Tarjeta,Jiutepec
+2005,2026-08-07,Cliente E,Mousepad,Accesorios,6,545,Efectivo,Cuernavaca
+2006,2026-08-07,Cliente F,RAM,Electronica,8,2443,Tarjeta,Jiutepec
+2007,2026-08-07,Cliente G,Lentes VR,Accesorios,9,950,Efectivo,Cuernavaca
+2008,2026-08-07,Cliente A,Monitor,Electronica,2,1200,Tarjeta,Jiutepec
+2009,2026-08-07,Cliente B,Mouse,Accesorios,4,263,Efectivo,Cuernavaca
+2010,2026-08-07,Cliente C,C4,Armamento,5,43,Tarjeta,Jiutepec

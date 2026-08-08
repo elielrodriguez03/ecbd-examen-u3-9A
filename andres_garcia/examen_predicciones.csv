@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad,prediccion_venta_alta,interpretacion_prediccion,total_estimado,venta_alta_real_estimada,coincide,distancia_a_1000
+2001,2026-08-07,Cliente A,Mouse,Accesorios,1,500,Efectivo,Cuernavaca,0,Venta no alta,500,0,True,500
+2002,2026-08-07,Cliente B,Laptop,Electronica,1,12000,Tarjeta,Paris,1,Venta alta,12000,1,True,11000
+2003,2026-08-07,Cliente C,Audifonos,Accesorios,4,4554,Efectivo,Cuernavaca,0,Venta no alta,18216,1,False,17216
+2004,2026-08-07,Cliete D,Lavadora,Electronica,2,7463,Tarjeta,Jiutepec,1,Venta alta,14926,1,True,13926
+2005,2026-08-07,Cliente E,Mousepad,Accesorios,6,545,Efectivo,Cuernavaca,0,Venta no alta,3270,1,False,2270
+2006,2026-08-07,Cliente F,RAM,Electronica,8,2443,Tarjeta,Jiutepec,1,Venta alta,19544,1,True,18544
+2007,2026-08-07,Cliente G,Lentes VR,Accesorios,9,950,Efectivo,Cuernavaca,0,Venta no alta,8550,1,False,7550
+2008,2026-08-07,Cliente A,Monitor,Electronica,2,1200,Tarjeta,Jiutepec,1,Venta alta,2400,1,True,1400
+2009,2026-08-07,Cliente B,Mouse,Accesorios,4,263,Efectivo,Cuernavaca,0,Venta no alta,1052,1,False,52
+2010,2026-08-07,Cliente C,C4,Armamento,5,43,Tarjeta,Jiutepec,1,Venta alta,215,0,False,785
