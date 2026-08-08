@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+2001,2026-08-07,Melanie,Mouse,Accesorios,1,500,Efectivo,Cuernavaca
+2002,2026-07-31,Amador,Adaptador tipo C,Electronica,1,200,Efectivo,Jiutepec
+2003,2026-07-23,Liliana,Calcetines,Ropa,4,40,Efectivo,Cuernavaca
+2004,2026-07-14,Antonio,Mousepad,Accesorios,1,50,Efectivo,Cuernavaca
+2005,2026-07-07,Rocío,Laptop,Electronica,1,13000,Tarjeta,Jojutla
+2006,2026-08-03,Blanca,TV 40',Electronica,1,6000,Tarjeta,Jiutepec
+2007,2026-08-05,Karla,Monitor curvo,Electronica,1,5000,Tarjeta,Jojutla
+2008,2026-05-25,Diego,CPU,Electronica,1,3500,Tarjeta,Jojutla
+2009,2026-06-07,Raúl,Teclado,Accesorios,1,999,Efectivo,Cuernavaca
+2010,2026-03-07,Juan José,Audifonos,Electronica,1,1001,Tarjeta,Cuernavaca

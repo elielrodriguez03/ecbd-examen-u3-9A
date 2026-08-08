@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad,prediccion_venta_alta,interpretacion_prediccion,total_estimado,venta_alta_real_estimada,coincide,distancia_a_1000
+2001,2026-08-07,Melanie,Mouse,Accesorios,1,500,Efectivo,Cuernavaca,0,Venta no alta,500,0,True,500
+2002,2026-07-31,Amador,Adaptador tipo C,Electronica,1,200,Efectivo,Jiutepec,1,Venta alta,200,0,False,800
+2003,2026-07-23,Liliana,Calcetines,Ropa,4,40,Efectivo,Cuernavaca,1,Venta alta,160,0,False,840
+2004,2026-07-14,Antonio,Mousepad,Accesorios,1,50,Efectivo,Cuernavaca,0,Venta no alta,50,0,True,950
+2005,2026-07-07,Rocío,Laptop,Electronica,1,13000,Tarjeta,Jojutla,1,Venta alta,13000,1,True,12000
+2006,2026-08-03,Blanca,TV 40',Electronica,1,6000,Tarjeta,Jiutepec,1,Venta alta,6000,1,True,5000
+2007,2026-08-05,Karla,Monitor curvo,Electronica,1,5000,Tarjeta,Jojutla,1,Venta alta,5000,1,True,4000
+2008,2026-05-25,Diego,CPU,Electronica,1,3500,Tarjeta,Jojutla,1,Venta alta,3500,1,True,2500
+2009,2026-06-07,Raúl,Teclado,Accesorios,1,999,Efectivo,Cuernavaca,0,Venta no alta,999,0,True,1
+2010,2026-03-07,Juan José,Audifonos,Electronica,1,1001,Tarjeta,Cuernavaca,1,Venta alta,1001,1,True,1
