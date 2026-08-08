@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+1061,2026-07-01,Ania Garcia,Mouse Gamer,Computacion,1,1500.0,Efectivo,Cuernavaca
+1062,2026-07-01,Andrew Torres,Teclado Gamer,Computacion,1,2000.0,Tarjeta,Ayala
+1063,2026-07-02,Sandra Ramoz,Audifonos Gamer,Electronica,1,3200.0,Tarjeta,Temixco
+1064,2026-07-02,Perla Olmeda,Webcam PRO MAX,Accesorios,1,1350.0,Efectivo,Cuernavaca
+1065,2026-07-03,Laura Marquez,Cable HDMI NVIDIA,Accesorios,2,200.0,Efectivo,Jiutepec
+1066,2026-07-03,Carlos Trejo,Memoria USB KINGSTON,Accesorios,1,500.0,Tarjeta,Xochitepec
+1067,2026-07-04,Monica Solis,Mouse Pad MAC,Accesorios,1,800.0,Efectivo,Temixco
+1068,2026-07-04,Jorge Linarez,Cargador 34 Volts,Electronica,3,250.0,Tarjeta,Cuernavaca
+1069,2026-07-05,Valeria Castillo,Funda Tablet Micky mouse,Accesorios,1,1000.0,Efectivo,Jiutepec
+1070,2026-07-05,Daniel Flores,Soporte Celular Xiaomi,Accesorios,1,1000.0,Efectivo,Temixco
