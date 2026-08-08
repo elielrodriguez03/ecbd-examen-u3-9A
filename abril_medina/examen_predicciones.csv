@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad,prediccion_venta_alta,interpretacion_prediccion,total_estimado,venta_alta_real_estimada,coincide,distancia_a_1000
+2001,2026-08-07,Cliente A,Mouse,Accesorios,1,500,Efectivo,Cuernavaca,0,Venta no alta,500,0,True,500
+2002,2026-08-07,Cliente B,Laptop,Electronica,1,12000,Tarjeta,"Jiutepec, Nopalera",1,Venta alta,12000,1,True,11000
+2003,2026-08-07,Cliente C,Monitor,Electronica,2,700,Efectivo,"Tetecalita,Cuernavaca",1,Venta alta,1400,1,True,400
+2004,2026-08-07,Cliente D,PC,Electronica,1,500,Tarjeta,"Jiutepec,Amatitlan",1,Venta alta,500,0,False,500
+2005,2026-08-07,Cliente E,Silla,Accesorios,2,600,Efectivo,"Chiconcuac,Cuernavaca",0,Venta no alta,1200,1,False,200
+2006,2026-08-07,Cliente F,Escritorio,Electrodomesicos,1,12000,Tarjeta,Jiutepec,1,Venta alta,12000,1,True,11000
+2007,2026-08-07,Cliente G,Mueble,Electrodomesicos,1,700,Efectivo,Cuernavaca,1,Venta alta,700,0,False,300
+2008,2026-08-07,Cliente H,Sofa,Electrodomesicos,3,12000,Tarjeta,Jiutepec,1,Venta alta,36000,1,True,35000
+2009,2026-08-07,Cliente I,Closet,Electrodomesicos,1,400,Efectivo,Cuernavaca,1,Venta alta,400,0,False,600
+2010,2026-08-07,Cliente J,Memoria,Electronica,3,12000,Tarjeta,Jiutepec,1,Venta alta,36000,1,True,35000
