@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad,prediccion_venta_alta,interpretacion_prediccion,total_estimado,venta_alta_real_estimada,coincide,distancia_a_1000
+2001,2026-08-07,Cliente A,Mouse,Accesorios,4,500,Efectivo,Cuernavaca,0,Venta no alta,2000,1,False,1000
+2002,2026-08-07,Cliente B,Laptop,Electronica,1,12000,Tarjeta,Jiutepec,1,Venta alta,12000,1,True,11000
+2003,2026-08-08,Cliente C,Cuaderno,Papelería,2,45,Efectivo,Cuernavaca,1,Venta alta,90,0,False,910
+2004,2026-08-09,Cliente D,Aretes,Joyería,3,150,Tarjeta,Jiutepec,1,Venta alta,450,0,False,550
+2005,2026-08-09,Cliente E,Teclado,Accesorios,2,550,Efectivo,Temixco,0,Venta no alta,1100,1,False,100
+2006,2026-08-10,Cliente F,Laptop,Electronica,4,230,Tarjeta,Emiliano Zapata,1,Venta alta,920,0,False,80
+2007,2026-08-10,Cliente G,Mouse,Accesorios,2,450,Efectivo,Jojutla,0,Venta no alta,900,0,True,100
+2008,2026-08-11,Cliente H,TV,Electronica,4,2000,Tarjeta,Temixco,1,Venta alta,8000,1,True,7000
+2009,2026-08-12,Cliente I,Tablet,Electronica,1,650,Efectivo,Cuernavaca,1,Venta alta,650,0,False,350
+2010,2026-08-13,Cliente J,Plumones,Papelería,3,150,Tarjeta,Temixco,1,Venta alta,450,0,False,550
