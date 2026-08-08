@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad,prediccion_venta_alta,interpretacion_prediccion
+2001,2026-08-07,Cliente A,Mouse,Accesorios,1,500,Efectivo,Cuernavaca,0,Venta no alta
+2002,2026-08-07,Cliente B,Laptop,Electronica,1,12000,Tarjeta,Jiutepec,1,Venta alta
+2003,2026-08-07,Cliente C,Cable de alimentacion,Muebles,5,300,Efectivo,Cuernavaca,1,Venta alta
+2004,2026-08-07,Cliente D,Teclado mecanico,Accesorios,1,5000,Tarjeta,Jiutepec,0,Venta no alta
+2005,2026-08-07,Cliente E,Guantes,Accesorios,2,800,Efectivo,Temixco,0,Venta no alta
+2006,2026-08-07,Cliente F,Clips,Muebles,2,10,Tarjeta,Temixco,1,Venta alta
+2007,2026-08-07,Cliente G,Conectores de red,Electronica,3,50,Efectivo,Emiliano Zapata,1,Venta alta
+2008,2026-08-07,Cliente H,Cinta adhesiva,Muebles,2,100,Tarjeta,Temixco,1,Venta alta
+2009,2026-08-07,Cliente I,Teclado 2,Muebles,1,950,Efectivo,Temixco,1,Venta alta
+2010,2026-08-07,Cliente J,Sabanas,Hogar,2,450,Tarjeta,Jiutepec,1,Venta alta
