@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+2001,2026-08-07,Adrian,Tenis,Ropa,1,500,Efectivo,Cuernavaca
+2002,2026-08-07,Uxue,Laptop,Electronica,1,12000,Tarjeta,Jiutepec
+2003,2026-08-07,Elias,Teclado,Accesorios,1,998,Efectivo,Temixco
+2004,2026-08-07,Emanuel,Audifonos,Electronica,1,2500,Tarjeta,Xochitepec
+2005,2026-08-07,Cristian,WebCam,Accesorios,2,4500,Efectivo,Zapata
+2006,2026-08-07,Amauri,Mouse,Electronica,1,500,Tarjeta,Cuernavaca
+2007,2026-08-07,Fernandez,Laptop,Accesorios,1,12000,Efectivo,Jiutepec
+2008,2026-08-07,Jose,Teclado,Electronica,1,999,Tarjeta,Temixco
+2009,2026-08-07,Juan,Audifonos,Accesorios,1,2500,Efectivo,Xochitepec
+2010,2026-08-07,Federico,WebCam,Electronica,2,4500,Tarjeta,Zapata

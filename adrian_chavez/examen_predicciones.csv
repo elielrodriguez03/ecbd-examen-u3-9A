@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad,prediccion_venta_alta,interpretacion_prediccion,total_estimado,venta_alta_real_estimada,coincide,distancia_a_1000
+2001,2026-08-07,Adrian,Tenis,Ropa,1,500,Efectivo,Cuernavaca,1,Venta alta,500,0,False,500
+2002,2026-08-07,Uxue,Laptop,Electronica,1,12000,Tarjeta,Jiutepec,1,Venta alta,12000,1,True,11000
+2003,2026-08-07,Elias,Teclado,Accesorios,1,998,Efectivo,Temixco,0,Venta no alta,998,0,True,2
+2004,2026-08-07,Emanuel,Audifonos,Electronica,1,2500,Tarjeta,Xochitepec,1,Venta alta,2500,1,True,1500
+2005,2026-08-07,Cristian,WebCam,Accesorios,2,4500,Efectivo,Zapata,0,Venta no alta,9000,1,False,8000
+2006,2026-08-07,Amauri,Mouse,Electronica,1,500,Tarjeta,Cuernavaca,1,Venta alta,500,0,False,500
+2007,2026-08-07,Fernandez,Laptop,Accesorios,1,12000,Efectivo,Jiutepec,0,Venta no alta,12000,1,False,11000
+2008,2026-08-07,Jose,Teclado,Electronica,1,999,Tarjeta,Temixco,1,Venta alta,999,0,False,1
+2009,2026-08-07,Juan,Audifonos,Accesorios,1,2500,Efectivo,Xochitepec,0,Venta no alta,2500,1,False,1500
+2010,2026-08-07,Federico,WebCam,Electronica,2,4500,Tarjeta,Zapata,1,Venta alta,9000,1,True,8000

@@ -184,21 +184,21 @@ Responde con tus palabras en esta seccion o en una celda Markdown de tu notebook
 Escribe aqui tus respuestas:
 
 ```text
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
+1. Es cuando se generan datos a traves de muchos datos mediante prediccion, son entrenados con un algoritmo.
+2. Es la que tiene el resultado al que queremos llegar, es como la meta
+3. Venta alta es la variable objetivo X, es la variable de entrada.
+4. X es la variable de entrada, los datos que entrenaremos y y es la variable objetivo, a lo que queremos llegar.
+5. Son varios grupos de datos, categorizados.
+6. Porque se clasifica por tipos de pagos.
+7. Prepara los datos, los clasifica.
+8. EL entrenamiento es para separar los resultados esperados, y prueba son los que se procesan y se predicen.
+9. La exactitud es la cantidad de datos que se van a tomar para la entrenar.
+10. Para visualizar la consistencia de los resultados y ver cuales si son 1 o 0.
+11. Entrena el modelo.
+12. Genera predicciones.
+13. Para convertir datos a tipo numerico.
+14. Sirve para volver a utilizar modelos ya hechos.
+15. Porque no se evaluan todos los datos entonces puede existir otro camino y no uno unico.
 ```
 
 ---
@@ -490,14 +490,14 @@ Preguntas obligatorias:
 Completa esta seccion al final:
 
 ```text
-Nombre:
-Grupo:
-Materia:
-Exactitud obtenida:
-Ventas nuevas evaluadas:
-Coincidencias:
-Errores:
-Conclusion breve:
+Nombre: Adrian Uxue Chavez Martinez
+Grupo: 9A
+Materia: Extraccion de conocimientos de base de datos
+Exactitud obtenida: 1.0
+Ventas nuevas evaluadas: 10
+Coincidencias: 4
+Errores: 6
+Conclusion breve: Esta vez si salieron erroneos y eso demuestra que una prediccion no es perfecta
 ```
 
 ---
