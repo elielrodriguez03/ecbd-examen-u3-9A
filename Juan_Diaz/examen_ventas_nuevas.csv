@@ -1,0 +1,11 @@
+id_venta,fecha,cliente,producto,categoria,cantidad,precio_unitario,metodo_pago,ciudad
+3001,2026-08-07,Cliente A,Monitor,Electronica,2,2500,Tarjeta,CDMX
+3002,2026-08-07,Cliente B,Teclado,Accesorios,1,300,Efectivo,Puebla
+3003,2026-08-07,Cliente C,Laptop,Electronica,1,15000,Transferencia,Guadalajara
+3004,2026-08-07,Cliente D,Cable HDMI,Accesorios,3,100,Efectivo,Monterrey
+3005,2026-08-07,Cliente E,Mouse,Accesorios,1,150,Efectivo,Merida
+3006,2026-08-07,Cliente F,Escritorio,Muebles,1,1050,Tarjeta,Tijuana
+3007,2026-08-07,Cliente G,Silla,Muebles,1,550,Tarjeta,Leon
+3008,2026-08-07,Cliente H,Hub USB,Accesorios,2,490,Efectivo,Puebla
+3009,2026-08-07,Cliente I,Impresora 3D,NuevaCategoriaDIY,1,8000,Transferencia,NuevaCiudadTech
+3010,2026-08-07,Cliente J,Webcam,Accesorios,2,600,Tarjeta,CDMX
